@@ -1,0 +1,38 @@
+.header {
+    padding-top: 38px;
+    padding-bottom: 38px;
+    background-color: white;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.header__nav {
+    flex-grow: 4;
+}
+
+.header__list {
+    display: flex;
+    gap: 31px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__link {
+    line-height: 1.22;
+    font-size: 1.8rem;
+}
+
+.header__button-wrapper {
+    flex-grow: 1;
+    text-align: right;
+    flex-shrink: 0;
+}

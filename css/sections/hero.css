@@ -1,0 +1,47 @@
+.hero {
+    padding-top: 70px;
+    padding-bottom: 130px;
+}
+
+.hero__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px;
+    justify-content: space-between;
+}
+
+.hero__gift-content {
+    width: 41%;
+}
+
+.hero__title {
+    font-size: 5.6rem;
+    line-height: 1.23;
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+
+.hero__gift-text {
+    margin-bottom: 52px;
+}
+
+.hero__gift-image {
+    width: 570px;
+}
+
+.hero__works-image {
+    width: 570px;
+}
+
+.hero__works-content {
+    width: 41%;
+    align-self: center;
+}
+
+.hero__subtitle {
+    margin-bottom: 23px;
+}
+
+.hero__work-text {
+    margin-bottom: 35px;
+}
