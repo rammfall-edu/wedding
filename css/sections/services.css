@@ -11,6 +11,13 @@
     }
 }
 
+@media (max-width: 720px) {
+    .services {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
 .services__title {
     margin-bottom: 23px;
 }
@@ -45,6 +52,13 @@
 @media (max-width: 1220px) {
     .services-list {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 720px) {
+    .services-list {
+        grid-template-columns: 1fr;
+        gap: 15px;
     }
 }
 

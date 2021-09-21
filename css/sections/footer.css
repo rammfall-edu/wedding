@@ -9,6 +9,13 @@
     }
 }
 
+@media (max-width: 720px) {
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
 .footer__nav-list {
     display: flex;
     align-items: center;
@@ -21,6 +28,22 @@
     .footer__nav-list {
         gap: 40px;
         padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 720px) {
+    .footer__nav-list {
+        gap: 15px;
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 720px) {
+    .footer__nav-item--logo {
+        order: -1;
+        width: 100%;
+        text-align: center;
     }
 }
 
@@ -66,9 +89,22 @@
     }
 }
 
+@media (max-width: 720px) {
+    .socials {
+        gap: 14px;
+    }
+}
+
 .socials__link {
     display: block;
     width: 40px;
+}
+
+
+@media (max-width: 720px) {
+    .socials__link {
+        width: 25px;
+    }
 }
 
 .socials__icon {
